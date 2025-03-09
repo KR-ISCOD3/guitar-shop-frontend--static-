@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --coffee-color-800: #7a4419;
+    --coffee-color-700: #935415;
+    --coffee-color-600: #b87616;
+    --coffee-color-500: #d6991c;
+    --coffee-color-400: #e6b029;
+    --coffee-color-300: #edc857;
+    --coffee-color-200: #f4e094;
+    --coffee-color-100: #f9f1c8;
+}
+/* ------------------- Backgorund-Color --------------- */
+.bg-coffee-800{
+    background-color: var(--coffee-color-800) !important;
+}
+.bg-coffee-700{
+    background-color: var(--coffee-color-700) !important;
+}
+.bg-coffee-600{
+    background-color: var(--coffee-color-600) !important;
+}
+.bg-coffee-500{
+    background-color: var(--coffee-color-500) !important;
+}
+.bg-coffee-400{
+    background-color: var(--coffee-color-400) !important;
+}
+.bg-coffee-300{
+    background-color: var(--coffee-color-300) !important;
+}
+.bg-coffee-200{
+    background-color: var(--coffee-color-200) !important;
+}
+.bg-coffee-100{
+    background-color: var(--coffee-color-100) !important;
+}
+/* ------------------- ---------------- --------------- */
+
+
+/* ----------------- Text-Color --------------- */
+.text-coffee-800{
+    color: var(--coffee-color-800) !important;
+}
+.text-coffee-700{
+    color: var(--coffee-color-700) !important;
+}
+.text-coffee-600{
+    color: var(--coffee-color-600) !important;
+}
+.text-coffee-500{
+    color: var(--coffee-color-500) !important;
+}
+.text-coffee-400{
+    color: var(--coffee-color-400) !important;
+}
+.text-coffee-300{
+    color: var(--coffee-color-300) !important;
+}
+.text-coffee-200{
+    color: var(--coffee-color-200) !important;
+}
+.text-coffee-100{
+    color: var(--coffee-color-100) !important;
+}
+/* ------------------- ---------------- -------- */
+
+/* ----------------- Font-Family --------------- */
+.font-roboto{
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+.font-logo{
+    font-family: "Dancing Script", cursive !important;
+    font-weight:bolder;
+}
+/* ----------------- ----------- --------------- */
+
+
+.hover-rular:hover{
+    text-decoration: underline !important;
+}
