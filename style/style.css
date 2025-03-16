@@ -78,3 +78,30 @@
 .hover-rular:hover{
     text-decoration: underline !important;
 }
+
+.hero{
+    position: relative;
+    background: url(https://wallpapers.com/images/featured/guitar-pictures-rm7sapdj9gdi6nef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(41, 41, 41, 0.815);
+}
+
+.transition{
+    transition: 0.3s ease-in-out;
+}
+
+.hover-bg:hover{
+    background-color: var(--coffee-color-600) !important;
+    color: white !important;
+}
